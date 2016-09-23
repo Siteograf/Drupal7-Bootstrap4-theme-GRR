@@ -1,0 +1,46 @@
+name = Bootstrap GRR
+description = Built to use Bootstrap, a sleek, intuitive, and powerful front-end framework for faster and easier web development.
+core = 7.x
+
+;;;;;;;;;;;;;;;;;;;;;
+;; Regions
+;;;;;;;;;;;;;;;;;;;;;
+
+
+regions[logo]               = 'Logo'
+regions[topicons]           = 'Top Icons'
+regions[header]             = 'Top Bar'
+regions[highlighted]        = 'Highlighted'
+regions[help]               = 'Help'
+regions[content]            = 'Content'
+regions[sidebar_first]      = 'Primary'
+regions[sidebar_second]     = 'Secondary'
+regions[page_top]           = 'Page top'
+regions[page_bottom_full]   = 'Page bottom Full'
+regions[footer1]            = 'Footer1'
+regions[footer2]            = 'Footer2'
+regions[footer3]            = 'Footer3'
+regions[footer4]            = 'Footer4'
+
+
+; settings[bootstrap_grr_cdn] = 3.3.5
+settings[bootstrap_grr_font_awesome] = 4.4.0
+settings[bootstrap_grr_container] = container
+
+stylesheets[all][] = lib/font-awesome/css/font-awesome.min.css
+stylesheets[all][] = css/style.css
+
+scripts[] = lib/tether/dist/js/tether.js
+scripts[] = lib/bootstrap/dist/js/bootstrap.min.js
+scripts[] = lib/responsiveslides/responsiveslides.min.js
+
+scripts[] = js/custom.js
+
+plugins[panels][layouts] = panels/layouts
+
+; Information added by Drupal.org packaging script on 2016-02-02
+version = "7.x-1.1"
+core = "7.x"
+project = "bootstrap_grr"
+datestamp = "1454438640"
+
